@@ -1,0 +1,39 @@
+{
+  "name": "newsvelete",
+  "version": "1.0.0",
+  "description": "new progress project",
+  "main": "main.js",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "start": "sirv build --no-clear"
+  },
+  "author": "cairongquan10",
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "@tsconfig/svelte": "^2.0.1",
+    "express": "^4.17.1",
+    "hash-parse": "^1.0.24",
+    "node-sass": "^6.0.1",
+    "postcss": "^8.3.11",
+    "request": "^2.88.2",
+    "rollup": "^2.60.0",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-postcss": "^4.0.1",
+    "rollup-plugin-svelte": "^7.1.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.31.0",
+    "sirv-cli": "^1.0.14",
+    "superagent": "^6.1.0",
+    "svelte": "^3.44.1",
+    "svelte-check": "^2.2.10",
+    "svelte-spa-router": "^3.2.0",
+    "ts": "^0.2.2",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.2"
+  }
+}
