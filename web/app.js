@@ -1,9 +1,10 @@
 const express = require("express");
 const app = express();
-
 const Test = require("./routers/test/test.c");
+app.use(express.static("../build"));
 
 app.all('*', function (req, res, next) {
+    console.log(req.headers);
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Headers', 'Content-Type');
     res.header('Access-Control-Allow-Methods', '*');
